@@ -11,7 +11,7 @@ export const DECREMENT = 'DECREMENT';
 
 export const increment = (count) => {
   // Fill in this function
-  console.log("increment", count);
+  console.log("increment action creator", count);
   return {
     type: INCREMENT,
     payload: count
